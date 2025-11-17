@@ -4,6 +4,7 @@
 - create Configuration obj based on xml file
 - create SessionFactory from configuration obj
 - open Session from SessionFactory obj
+- project show how to use custom query (HQL) to fetch data instead of using get() method
 - This project show how to make cache global for all sessions NOT specific to one session like first-level-cache
 - second-level-cache NOT provided by default by Hibernate , it needs configuration
     - add two dependencies :
