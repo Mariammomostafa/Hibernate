@@ -6,6 +6,6 @@
 
 ### Prerequisites
 - Java 8
-- hibernate-core 7.0.6.Final
+- hibernate-core 4.2.8.Final
 - mysql-connector-j 8.3.0
 - IDE (Eclips)
