@@ -1,5 +1,7 @@
 package com.selenium;
 
+import java.util.List;
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -37,14 +39,14 @@ public class Hql {
 
 		// return all rows of table
 
-//    	Query<Student> q = session.createQuery("from Student" , Student.class);
-//    	List<Student> list = q.list();
-//    	
-//    	for (Student student : list) {
-//			
-//    		System.out.println(student);
-//		}
-//    	
+    	Query<Student> query = session.createQuery("from Student" , Student.class);
+    	List<Student> list = query.list();
+    	
+    	for (Student student : list) {
+			
+    		System.out.println(student);
+		}
+    	
 
 		System.out.println("*******************************************************");
 
