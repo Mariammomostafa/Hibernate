@@ -5,7 +5,7 @@
 - create SessionFactory from configuration obj
 - open Session from SessionFactory obj
 
-   ### Prerequisites
+### Prerequisites
 - Java 8
 - hibernate-core 7.0.6.Final
 - mysql-connector-j 8.3.0
